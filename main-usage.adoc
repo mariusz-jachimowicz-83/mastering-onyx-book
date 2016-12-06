@@ -4,16 +4,20 @@
 image::img/main-usage.png[align="center"]
 
 To be able to submit job you need to run core on each host
+
 1. `start-env`
 2. `start-peer-group`
 
 Each of this methods has shutdown counterpart
+
 * `shutdown-env`
 * `shutdown-peer-group`
 
 When core is running then you can submit job from any of hosts.
 Rest of hosts will pick up job via Zookeeper.
+
 3. `submit-job`
 
 You can kill job by calling
+
 * `kill-job(job-id)`
