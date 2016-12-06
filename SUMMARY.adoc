@@ -1,3 +1,4 @@
 = Summary
 
 . link:book-intro.adoc[Introduction]
+. link:main-usage.adoc[Main usage]
