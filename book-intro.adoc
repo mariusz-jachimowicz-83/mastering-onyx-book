@@ -1,0 +1,7 @@
+== Mastering Onyx
+
+Welcome to Mastering Onyx internals.
+
+I'm https://pl.linkedin.com/in/mariusz-jachimowicz-71862142[Mariusz Jachimowicz], an *independent consultant* polyglot developer who is passionate about software development.
+
+By creating this book my intention is to help contributing into Onyx platform.
