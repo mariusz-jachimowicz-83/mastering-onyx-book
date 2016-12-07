@@ -5,9 +5,9 @@ image::img/start-peer-group.png[align="center"]
 
 Components started during `peer group phase`
 
-* LogWriter - writing data into ZooKeeper server using ZooKeeper client component
-* ReplicaSubscription - getting data about cluster state
-* ZooKeeper (log client) - client used to write into Zookeeper server
-* PeerGroupManager - main component
-* AeronPeerGroup
-* QueryServer
+* `LogWriter` - writing data into ZooKeeper server using ZooKeeper client component
+* `ReplicaSubscription` - getting data about cluster state
+* `ZooKeeper (log client)` - client used to write into Zookeeper server
+* `PeerGroupManager` - main component
+* `AeronPeerGroup`
+* `QueryServer`

@@ -5,6 +5,6 @@ image::img/start-env.png[align="center"]
 
 Components started during `dev environment phase`
 
-* ZooKeeper in memory server (optional)
-* BookKeeper in memory server (optional)
-* ZooKeeper client
+* `ZooKeeper in memory server` (optional)
+* `BookKeeper in memory server` (optional)
+* `ZooKeeper client`
