@@ -1,5 +1,6 @@
 = Summary
 
+. link:README.md[README]
 . link:book-intro.adoc[Introduction]
 . link:main-usage.adoc[Main usage]
 . link:cluster-interactions.adoc[Cluster interactions]
