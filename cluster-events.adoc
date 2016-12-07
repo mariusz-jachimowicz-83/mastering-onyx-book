@@ -1,0 +1,44 @@
+== Cluster state events (replica events)
+
+.All cluster state events
+image::img/cluster-state.png[align="center"]
+
+
+=== Cluster participation events
+
+* `:abort-join-cluster`
+* `:accept-join-cluster`
+* `:prepare-join-cluster`
+* `:notify-join-cluster`
+* `:group-leave-cluster`
+* `:leave-cluster`
+
+=== Add worker event
+
+* `:add-virtual-peer`
+
+=== Bookeeper events
+* `:assign-bookkeeper-log-id`
+* `:compact-bookkeeper-log-ids`
+* `:deleted-bookkeeper-log-ids`
+
+=== Backpressure events
+
+* `:backpressure-off`
+* `:backpressure-on`
+
+== Input/output events
+
+* `:exhaust-input`
+* `:seal-output`
+
+=== Job events
+
+* `:submit-job`
+* `:kill-job`
+
+== Other events
+
+* `:signal-ready`
+* `:gc`
+* `:set-replica!`

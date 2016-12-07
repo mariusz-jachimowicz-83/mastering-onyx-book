@@ -21,15 +21,3 @@ Rest of hosts will pick up job via Zookeeper.
 You can kill job by calling
 
 * `kill-job(cfg, job-id)`
-
-== Cluster interactions
-
-.Main useable interactions with cluster
-image::img/api-actions.png[align="center"]
-
-Main interactions with onyx cluster:
-
-* `kill-job` - kill running job.
-* `gc` - force to shrink replica. Useable for bigger clusters or when you have many short jobs.
-* `await-job-completion` - wait until job completes. Usefull for tests.
-* `subscribe-to-log` - it allows to create replica. Zookeeper is used as an appendable log and whole cluster is using masterless synchronization. If you want know a cluster state then you need to subscribe to log and create local replica from it.
