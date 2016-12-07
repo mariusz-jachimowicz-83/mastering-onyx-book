@@ -5,9 +5,6 @@ image::img/start-env.png[align="center"]
 
 Components started during `dev environment phase`
 
-* LogWriter - writing data into ZooKeeper server using ZooKeeper client component
-* ReplicaSubscription - getting data about cluster state
-* ZooKeeper (log client) - client used to write into Zookeeper server
-* PeerGroupManager - main component
-* AeronPeerGroup
-* QueryServer
+* ZooKeeper in memory server (optional)
+* BookKeeper in memory server (optional)
+* ZooKeeper client
