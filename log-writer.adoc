@@ -1,0 +1,11 @@
+== LogWriter component
+
+.Log writer responsibity
+image::img/log-writer.png[align="center"]
+
+LogWriter component is responsible by writing any data from `outbox-ch` into Zookeeper.
+
+[IMPORTANT]
+====
+When error occur writing into ZooKeeper then this component will notify to restart whole peer component
+====

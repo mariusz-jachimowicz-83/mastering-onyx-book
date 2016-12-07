@@ -5,4 +5,5 @@
 . link:main-usage.adoc[Main usage]
 . link:cluster-interactions.adoc[Cluster interactions]
 . link:cluster-events.adoc[Cluster state events]
+. link:log-writer.adoc[Log writer component]
 
