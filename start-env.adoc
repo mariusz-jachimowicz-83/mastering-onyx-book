@@ -1,9 +1,9 @@
-== Start peer group phase
+== Start dev environment phase
 
-.Start peer group phase - starting components
-image::img/start-peer-group.png[align="center"]
+.Start dev environment phase - starting components
+image::img/start-env.png[align="center"]
 
-Components started during `peer group phase`
+Components started during `dev environment phase`
 
 * LogWriter - writing data into ZooKeeper server using ZooKeeper client component
 * ReplicaSubscription - getting data about cluster state

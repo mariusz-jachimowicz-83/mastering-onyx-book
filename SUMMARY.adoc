@@ -5,6 +5,7 @@
 . link:main-usage.adoc[Main usage]
 . link:cluster-interactions.adoc[Cluster interactions]
 . link:cluster-events.adoc[Cluster state events]
+. link:start-env.adoc[Start development environment phase]
 . link:start-peer-group.adoc[Start peer group phase]
 . link:log-writer.adoc[Log writer component]
 
