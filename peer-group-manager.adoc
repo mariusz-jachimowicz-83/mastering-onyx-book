@@ -1,0 +1,30 @@
+== PeerGroupManager component
+
+.PeerGroupManager responsibity
+image::img/peer-group-manager.png[align="center"]
+
+PeerGroupManager component is responsible for managing host lificycle.
+
+=== Manage communication
+
+* `:start-communicator`
+* `:stop-communicator`
+* `:send-to-outbox`
+* `:apply-log-entry`
+
+=== Manage node lifecycle
+
+* `:start-peer-group`
+* `:stop-peer-group`
+* `:restart-peer-group`
+
+=== Manage workers (vpeers)
+
+* `:start-peer` (vpeer)
+* `:stop-peer` (vpeer)
+* `:remove-peer` (vpeer)
+* `:restart-vpeer`
+* `:restart-peer` (seems the same as :restart-vpeer)
+* `:add-peer` (vpeer)
+* `:start-all-peers` (vpeers)
+* `:stop-all-peers` (vpeers)

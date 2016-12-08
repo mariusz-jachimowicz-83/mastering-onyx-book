@@ -7,5 +7,6 @@
 . link:cluster-events.adoc[Cluster state events]
 . link:start-env.adoc[Start development environment phase]
 . link:start-peer-group.adoc[Start peer group phase]
-. link:log-writer.adoc[Log writer component]
+. link:log-writer.adoc[LogWriter component]
+. link:peer-group-manager.adoc[PeerGroupManager component]
 
