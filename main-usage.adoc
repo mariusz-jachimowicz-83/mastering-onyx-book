@@ -3,21 +3,23 @@
 .Main Usage
 image::img/main-usage.png[align="center"]
 
-To be able to submit job you need to run core on each host
+To be able to submit job you need to run 3 core subsystems on each host by calling:
 
 1. `start-env`
 2. `start-peer-group`
+3. `start-peers`
 
-Each of this methods has shutdown counterpart
+Each of those subsystems has shutdown counterpart method:
 
 * `shutdown-env`
 * `shutdown-peer-group`
+* `shutdown-peers`
 
-When core is running then you can submit job from any of hosts.
+When whole core is running then you can submit job from any of hosts.
 Rest of hosts will pick up job via Zookeeper.
 
-3. `submit-job`
+4. `submit-job`
 
-You can kill job by calling
+You can kill job by calling.
 
 * `kill-job(cfg, job-id)`
