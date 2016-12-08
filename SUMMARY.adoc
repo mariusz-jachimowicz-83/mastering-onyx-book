@@ -9,4 +9,4 @@
 . link:start-peer-group.adoc[Start peer group phase]
 . link:log-writer.adoc[LogWriter component]
 . link:peer-group-manager.adoc[PeerGroupManager component]
-
+. link:apply-log-entry.adoc[Apply log entry algorithm]

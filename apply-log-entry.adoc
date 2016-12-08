@@ -1,0 +1,11 @@
+== Apply log entry
+
+Apply log entry algorithm:
+
+1. `extensions/apply-log-entry` - apply entry into replica
+2. `extensions/replica-diff` - make replica diff
+3. `transition-group` - node transition
+4. `transition-peers` - peers transition
+5. collect all reaction after transitions
+6. update query-server state
+7. send results to ZK
