@@ -1,6 +1,6 @@
 == PeerGroupManager component
 
-.PeerGroupManager responsibity
+.PeerGroupManager responsibility
 image::img/peer-group-manager.png[align="center"]
 
 PeerGroupManager component is responsible for managing host lificycle.
