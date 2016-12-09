@@ -1,9 +1,9 @@
-== Start dev environment phase
+== Start env phase (development environment)
 
-.Start dev environment phase - starting components
+.Start env phase - starting components
 image::img/start-env.png[align="center"]
 
-Components started during `dev environment phase`
+Components started during `env phase`
 
 * `ZooKeeper in memory server` (optional)
 * `BookKeeper in memory server` (optional)
