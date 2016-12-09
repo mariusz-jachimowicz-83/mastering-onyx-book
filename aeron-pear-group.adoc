@@ -1,9 +1,0 @@
-== AeronPearGroup component
-
-.AeronPearGroup responsibility
-image::img/aeron-pear-group.png[align="center"]
-
-AeronPearGroup component is responsible for
-
-* starting Aeron subscriber
-* starting publication pool

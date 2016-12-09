@@ -10,4 +10,4 @@
 . link:log-writer.adoc[LogWriter component]
 . link:peer-group-manager.adoc[PeerGroupManager component]
 . link:apply-log-entry.adoc[Apply log entry algorithm]
-. link:aeron-pear-group.adoc[AeronPearGroup component]
+. link:aeron-peer-group.adoc[AeronPeerGroup component]

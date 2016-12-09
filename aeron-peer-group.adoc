@@ -1,0 +1,9 @@
+== AeronPeerGroup component
+
+.AeronPeerGroup responsibility
+image::img/aeron-peer-group.png[align="center"]
+
+AeronPeerGroup component is responsible for
+
+* starting Aeron subscriber
+* starting publication pool
