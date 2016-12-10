@@ -1,0 +1,4 @@
+== Start peers phase
+
+.Start peers phase - starting components
+image::img/start-peers.png[align="center"]

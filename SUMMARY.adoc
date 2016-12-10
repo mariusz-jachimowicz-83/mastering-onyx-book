@@ -11,3 +11,4 @@
 . link:peer-group-manager.adoc[PeerGroupManager component]
 . link:apply-log-entry.adoc[Apply log entry algorithm]
 . link:aeron-peer-group.adoc[AeronPeerGroup component]
+. link:start-peers.adoc[Start peers phase]
