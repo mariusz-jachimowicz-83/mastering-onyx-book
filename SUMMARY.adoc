@@ -7,6 +7,7 @@
 . link:cluster-events.adoc[Cluster state events]
 . link:start-env.adoc[Start env phase]
 . link:start-peer-group.adoc[Start peer group phase]
+. link:start-peer-group-abs.adoc[Start peer group phase (ABS)]
 . link:log-writer.adoc[LogWriter component]
 . link:peer-group-manager.adoc[PeerGroupManager component]
 . link:apply-log-entry.adoc[Apply log entry algorithm]

@@ -1,0 +1,6 @@
+== Start peer group phase
+
+.Start peer group phase - starting components
+image::img/start-peer-group-abs.png[align="center"]
+
+Components started during `peer group phase`
