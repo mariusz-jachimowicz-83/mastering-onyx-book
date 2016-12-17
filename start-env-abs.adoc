@@ -1,0 +1,9 @@
+== Start env phase (development environment)
+
+.Start env phase - starting components
+image::img/start-env-abs.png[align="center"]
+
+Components started during `env phase`
+
+* `ZooKeeper in memory server` (optional)
+* `ZooKeeper client`

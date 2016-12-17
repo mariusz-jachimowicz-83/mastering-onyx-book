@@ -6,6 +6,7 @@
 . link:cluster-interactions.adoc[Cluster interactions]
 . link:cluster-events.adoc[Cluster state events]
 . link:start-env.adoc[Start env phase]
+. link:start-env-abs.adoc[Start env phase (ABS)]
 . link:start-peer-group.adoc[Start peer group phase]
 . link:start-peer-group-abs.adoc[Start peer group phase (ABS)]
 . link:log-writer.adoc[LogWriter component]
