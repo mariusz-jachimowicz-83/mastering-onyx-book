@@ -3,17 +3,19 @@
 .Main Usage
 image::img/main-usage.png[align="center"]
 
-To be able to submit job you need to run 3 core subsystems on each host by calling:
+To be able to submit job you need to run 3 core subsystems on each host by calling (with this order):
 
 1. `start-env`
 2. `start-peer-group`
 3. `start-peers`
 
-Each of those subsystems has shutdown counterpart method:
+To shutdown onyx you need to call shutdown counterpart methods (with this order):
 
-* `shutdown-env`
-* `shutdown-peer-group`
 * `shutdown-peers`
+* `shutdown-peer-group`
+* `shutdown-env`
+
+You can start onyx using plain api methods or use `with-test-env` macro. Macro is used mostly in tests and it closes Onyx automatically.
 
 When whole core is running then you can submit job from any of hosts.
 Rest of hosts will pick up job via Zookeeper.
