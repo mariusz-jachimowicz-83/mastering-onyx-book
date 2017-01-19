@@ -3,7 +3,7 @@
 .Main Usage
 image::img/main-usage.png[align="center"]
 
-To be able to submit job you need to run 3 core subsystems on each host by calling (with this order):
+To start Onyx runtime you need to run 3 core subsystems on each host by calling (with this order):
 
 1. `start-env`
 2. `start-peer-group`
