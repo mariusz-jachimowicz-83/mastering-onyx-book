@@ -11,9 +11,9 @@ To be able to submit job you need to run 3 core subsystems on each host by calli
 
 To shutdown onyx you need to call shutdown counterpart methods (with this order):
 
-* `shutdown-peers`
-* `shutdown-peer-group`
-* `shutdown-env`
+1. `shutdown-peers`
+2. `shutdown-peer-group`
+3. `shutdown-env`
 
 You can start onyx using plain api methods or use `with-test-env` macro. Macro is used mostly in tests and it closes Onyx automatically.
 
