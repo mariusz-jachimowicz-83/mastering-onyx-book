@@ -9,7 +9,7 @@ To be able to submit job you need to run 3 core subsystems on each host by calli
 2. `start-peer-group`
 3. `start-peers`
 
-To shutdown onyx you need to call shutdown counterpart methods (with this order):
+To shutdown onyx you need to call shutdown counterpart methods in reverted order:
 
 1. `shutdown-peers`
 2. `shutdown-peer-group`
